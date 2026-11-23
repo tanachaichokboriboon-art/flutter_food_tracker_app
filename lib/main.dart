@@ -14,19 +14,19 @@ void main() async {
     publishableKey: 'sb_publishable_TNgNrHNJo3I6i1fpfSL9hQ_uxI1vO_2',
   );
   runApp(
-    FlutterRunTrackerApp(),
+    FlutterFoodTrackerApp(),
   );
 }
 
 //--------------------------------
-class FlutterRunTrackerApp extends StatefulWidget {
-  const FlutterRunTrackerApp({super.key});
+class FlutterFoodTrackerApp extends StatefulWidget {
+  const FlutterFoodTrackerApp({super.key});
 
   @override
-  State<FlutterRunTrackerApp> createState() => _FlutterRunTrackerAppState();
+  State<FlutterFoodTrackerApp> createState() => _FlutterFoodTrackerAppState();
 }
 
-class _FlutterRunTrackerAppState extends State<FlutterRunTrackerApp> {
+class _FlutterFoodTrackerAppState extends State<FlutterFoodTrackerApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
